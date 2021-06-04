@@ -13,15 +13,16 @@ Tarefas:
 
 2º Tarefa
 
-- Desenvolver uma interface de cadastro de pessoas, utlizando BootStrap 4 ou superior, contendo os seguintes campos e validações
+- Desenvolver uma interface de cadastro de pessoas, utlizando BootStrap 4 ou superior, contendo os seguintes campos e validações.
+
 Campos:
 
 Nome da pessoa (Tamanho Maximo do Campo 100 caracteres),
 CPF (Validar se é valido),
-Cidade
-Estado
-Bairro
-Rua
+Cidade,
+Estado,
+Bairro,
+Rua,
 CEP (Utilizando a tarefa 1 e preencher automatico os seguintes campos: Cidade,Estado e se houver bairro e rua)
 Data de Nascimento ( Para cadastrar a pessoa tem que ter no minimo 18 anos, validar a idade)
 
