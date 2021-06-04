@@ -28,6 +28,8 @@ Data de Nascimento ( Para cadastrar a pessoa tem que ter no minimo 18 anos, vali
 
 Desenvolvido a parte de validação e interface, tendo a validação ter que gerar um alert se houver algum erro, colocar um button (HTML) e um label, onde no click do mesmo, gerar um objeto da pessoa e mostrar no label esse objeto em JSON.
 
+Enviar o link do fork no email williambatista@cpagricola.com.br
+
 
 
 
