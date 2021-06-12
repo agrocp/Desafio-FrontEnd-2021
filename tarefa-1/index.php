@@ -26,12 +26,12 @@
   <head>
     <title>Desafio Front End | AgroCP</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <div class="formandanswer">
       <div class="l-form">
-          <form action="../processamento.php" class="form" method="post">
+          <form action="processamento.php" class="form" method="post">
                 <h2 class="form__title">Consumindo API com PHP</h2>
                 <div class="form__div">
                     <input type="text" class="form__input" placeholder="" name="cep">
@@ -50,7 +50,6 @@
                   <input type="text" class="form__input" placeholder="" value="<?php echo $cidade; ?>" disabled>
                   <label for="" class="form__label">Cidade</label>
                 </div>
-
                 <?php
                   if($estado){ ?> 
                       <div class="form__div">
@@ -58,10 +57,6 @@
                       <label for="" class="form__label">Estado</label>
                     </div>
                  <?php } ?>
-                
-      
-
-                
                  <?php
                   if($bairro){ ?> 
                       <div class="form__div">
@@ -69,7 +64,6 @@
                       <label for="" class="form__label">Bairro</label>
                     </div>
                  <?php } ?>
-
                  <?php
                   if($rua){ ?> 
                       <div class="form__div">
@@ -81,19 +75,7 @@
           </div>
           <?php 
         }
-      
       ?>
     </div>
-
-
-    <script src="../js/jquery-3.6.0.min.js">
-
-
-    </script>
-    <script>
-      $( document ).ready(function() {
-        //$('#resultado').hide();
-      });
-    </script>
   </body>
 </html>

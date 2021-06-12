@@ -12,6 +12,6 @@
         $_SESSION['bairro'] = $resultado->bairro;
         $_SESSION['rua'] = $resultado->logradouro;
         
-        header('location: view/index.php' )
+        header('location: index.php' )
         
 ?>
