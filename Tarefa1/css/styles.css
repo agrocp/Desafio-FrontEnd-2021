@@ -27,7 +27,7 @@ h1{
 
 .formandanswer{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .l-form{
@@ -119,3 +119,25 @@ h1{
     border: 1.5px solid var(--first-color);
 }
 
+
+.result{
+    width: 360px;
+    padding: 4rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(92,99,105,.2);
+}
+
+
+@media (max-width: 760px) {
+    .formandanswer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 760px) {
+    .l-form{
+        margin-left: 50px;
+    }
+}
