@@ -1,3 +1,19 @@
+//import {Pessoa} from '../Pessoa';
+
+class Pessoa{
+    constructor(nome, cpf, cep, cidade, estado, bairro, rua, dataNascimento){
+        this.nome = nome;
+        this.cpf = cpf;
+        this.cep = cep;
+        this.cidade = cidade;
+        this.estado = estado;
+        this.bairro = bairro;
+        this.rua = rua;
+        this.dataNascimento = dataNascimento;
+    }
+}
+
+
 var cep = $("#cep");
 
 $( cep ).change(async () => {
@@ -215,6 +231,7 @@ $('#formulario-cadastro').submit(function() {
         return false;
     }
 
+    var objeto = new Pessoa(nome.val(), cpf.val(), cep.val(), cidade.val(), estado.val(), bairro.val(), rua.val(), dataNascimento.val());
 
-    return false;
+    alert(JSON.stringify(objeto));
 });
